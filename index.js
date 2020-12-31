@@ -22,7 +22,7 @@ function updateCountdown() {
 function timeup(){
     var d = new Date();
     var n = d.getFullYear();
-    if(n = 2021){
+    if(n == 2021){
         document.querySelector('.countdown-container').style.visibility = "hidden";
         document.querySelector('.cophav').style.visibility = "visible";
     }
